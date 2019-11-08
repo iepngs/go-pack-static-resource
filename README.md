@@ -15,7 +15,7 @@ $ go-assets-builder templates -o integrate/assets.go -p demo -s /templates/
 # windows的powershell下：
 go-assets-builder templates -o="integrate/assets.go" -p="demo" -s="/templates/"
 ```
-> 注： 需要把go的安装路径下的bin文件夹加入到环境中不然无法识别`go-assets-builder`等命令；
+> 注： 需要把GOPATH下的bin文件夹（可以执行go env查看具体位置）加入到环境中不然无法识别`go-assets-builder`等命令；
 
 #### 打包静态文件所需包：
 
